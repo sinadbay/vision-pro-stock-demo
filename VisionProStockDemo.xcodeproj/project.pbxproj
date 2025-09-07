@@ -7,82 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		001 /* App.swift */ = {isa = PBXBuildFile; fileRef = 002; };
-		003 /* ContentView.swift */ = {isa = PBXBuildFile; fileRef = 004; };
-		005 /* StockData.swift */ = {isa = PBXBuildFile; fileRef = 006; };
-		007 /* StockDataService.swift */ = {isa = PBXBuildFile; fileRef = 008; };
-		009 /* StockChartWidget.swift */ = {isa = PBXBuildFile; fileRef = 010; };
-		011 /* VolumeWidget.swift */ = {isa = PBXBuildFile; fileRef = 012; };
-		013 /* MarketOverviewWidget.swift */ = {isa = PBXBuildFile; fileRef = 014; };
-		015 /* ImmersiveStockView.swift */ = {isa = PBXBuildFile; fileRef = 016; };
-		017 /* RealityKitContent */ = {isa = PBXBuildFile; productRef = 018; };
+		5D1234567890ABCD /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1234567890ABCE /* App.swift */; };
+		5D1234567890ABCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1234567890ABD0 /* ContentView.swift */; };
+		5D1234567890ABD1 /* StockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1234567890ABD2 /* StockData.swift */; };
+		5D1234567890ABD3 /* StockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1234567890ABD4 /* StockDataService.swift */; };
+		5D1234567890ABD5 /* StockChartWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1234567890ABD6 /* StockChartWidget.swift */; };
+		5D1234567890ABD7 /* VolumeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1234567890ABD8 /* VolumeWidget.swift */; };
+		5D1234567890ABD9 /* MarketOverviewWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1234567890ABDA /* MarketOverviewWidget.swift */; };
+		5D1234567890ABDB /* ImmersiveStockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1234567890ABDC /* ImmersiveStockView.swift */; };
+		5D1234567890ABDD /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 5D1234567890ABDE /* RealityKitContent */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		002 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; };
-		004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; };
-		006 /* StockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockData.swift; };
-		008 /* StockDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDataService.swift; };
-		010 /* StockChartWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockChartWidget.swift; };
-		012 /* VolumeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeWidget.swift; };
-		014 /* MarketOverviewWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketOverviewWidget.swift; };
-		016 /* ImmersiveStockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveStockView.swift; };
-		019 /* VisionProStockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; };
-		020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; };
+		5D1234567890ABCE /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		5D1234567890ABD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5D1234567890ABD2 /* StockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockData.swift; sourceTree = "<group>"; };
+		5D1234567890ABD4 /* StockDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDataService.swift; sourceTree = "<group>"; };
+		5D1234567890ABD6 /* StockChartWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockChartWidget.swift; sourceTree = "<group>"; };
+		5D1234567890ABD8 /* VolumeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeWidget.swift; sourceTree = "<group>"; };
+		5D1234567890ABDA /* MarketOverviewWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketOverviewWidget.swift; sourceTree = "<group>"; };
+		5D1234567890ABDC /* ImmersiveStockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveStockView.swift; sourceTree = "<group>"; };
+		5D1234567890ABDF /* VisionProStockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionProStockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D1234567890ABE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFrameworksBuildPhase section */
+		5D1234567890ABE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1234567890ABDD /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
-		021 = {
+		5D1234567890ABE2 = {
 			isa = PBXGroup;
 			children = (
-				022 /* VisionProStockDemo */,
+				5D1234567890ABE3 /* VisionProStockDemo */,
+				5D1234567890ABE4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		022 /* VisionProStockDemo */ = {
+		5D1234567890ABE3 /* VisionProStockDemo */ = {
 			isa = PBXGroup;
 			children = (
-				002 /* App.swift */,
-				004 /* ContentView.swift */,
-				023 /* Models */,
-				024 /* Views */,
-				025 /* Services */,
-				020 /* Info.plist */,
+				5D1234567890ABCE /* App.swift */,
+				5D1234567890ABD0 /* ContentView.swift */,
+				5D1234567890ABDC /* ImmersiveStockView.swift */,
+				5D1234567890ABE5 /* Models */,
+				5D1234567890ABE6 /* Views */,
+				5D1234567890ABE7 /* Services */,
+				5D1234567890ABE0 /* Info.plist */,
 			);
 			path = VisionProStockDemo;
 			sourceTree = "<group>";
 		};
-		023 /* Models */ = {
+		5D1234567890ABE4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				006 /* StockData.swift */,
+				5D1234567890ABDF /* VisionProStockDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D1234567890ABE5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5D1234567890ABD2 /* StockData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		024 /* Views */ = {
+		5D1234567890ABE6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				016 /* ImmersiveStockView.swift */,
-				026 /* Widgets */,
+				5D1234567890ABE8 /* Widgets */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		025 /* Services */ = {
+		5D1234567890ABE7 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				008 /* StockDataService.swift */,
+				5D1234567890ABD4 /* StockDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
 		};
-		026 /* Widgets */ = {
+		5D1234567890ABE8 /* Widgets */ = {
 			isa = PBXGroup;
 			children = (
-				010 /* StockChartWidget.swift */,
-				012 /* VolumeWidget.swift */,
-				014 /* MarketOverviewWidget.swift */,
+				5D1234567890ABD6 /* StockChartWidget.swift */,
+				5D1234567890ABD8 /* VolumeWidget.swift */,
+				5D1234567890ABDA /* MarketOverviewWidget.swift */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -90,12 +110,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		027 /* VisionProStockDemo */ = {
+		5D1234567890ABE9 /* VisionProStockDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 028;
+			buildConfigurationList = 5D1234567890ABEA /* Build configuration list for PBXNativeTarget "VisionProStockDemo" */;
 			buildPhases = (
-				029 /* Sources */,
-				030 /* Frameworks */,
+				5D1234567890ABEB /* Sources */,
+				5D1234567890ABE1 /* Frameworks */,
+				5D1234567890ABEC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -103,28 +124,28 @@
 			);
 			name = VisionProStockDemo;
 			packageProductDependencies = (
-				018 /* RealityKitContent */,
+				5D1234567890ABDE /* RealityKitContent */,
 			);
 			productName = VisionProStockDemo;
-			productReference = 019 /* VisionProStockDemo.app */;
+			productReference = 5D1234567890ABDF /* VisionProStockDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		031 /* Project object */ = {
+		5D1234567890ABED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					027 = {
+					5D1234567890ABE9 = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = 032;
+			buildConfigurationList = 5D1234567890ABEE /* Build configuration list for PBXProject "VisionProStockDemo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,41 +153,52 @@
 				en,
 				Base,
 			);
-			mainGroup = 021;
+			mainGroup = 5D1234567890ABE2;
 			packageReferences = (
 			);
-			productRefGroup = 033;
+			productRefGroup = 5D1234567890ABE4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				027 /* VisionProStockDemo */,
+				5D1234567890ABE9 /* VisionProStockDemo */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		5D1234567890ABEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		029 /* Sources */ = {
+		5D1234567890ABEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				001 /* App.swift */,
-				003 /* ContentView.swift */,
-				005 /* StockData.swift */,
-				007 /* StockDataService.swift */,
-				009 /* StockChartWidget.swift */,
-				011 /* VolumeWidget.swift */,
-				013 /* MarketOverviewWidget.swift */,
-				015 /* ImmersiveStockView.swift */,
+				5D1234567890ABCD /* App.swift in Sources */,
+				5D1234567890ABCF /* ContentView.swift in Sources */,
+				5D1234567890ABD1 /* StockData.swift in Sources */,
+				5D1234567890ABD3 /* StockDataService.swift in Sources */,
+				5D1234567890ABD5 /* StockChartWidget.swift in Sources */,
+				5D1234567890ABD7 /* VolumeWidget.swift in Sources */,
+				5D1234567890ABD9 /* MarketOverviewWidget.swift in Sources */,
+				5D1234567890ABDB /* ImmersiveStockView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		034 /* Debug */ = {
+		5D1234567890ABEF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -199,6 +231,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -224,10 +257,11 @@
 			};
 			name = Debug;
 		};
-		035 /* Release */ = {
+		5D1234567890ABF0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -260,6 +294,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -278,7 +313,7 @@
 			};
 			name = Release;
 		};
-		036 /* Debug */ = {
+		5D1234567890ABF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -288,8 +323,10 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = VisionProStockDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Stock Visualization";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +341,7 @@
 			};
 			name = Debug;
 		};
-		037 /* Release */ = {
+		5D1234567890ABF2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -314,8 +351,10 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = VisionProStockDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Stock Visualization";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,25 +372,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		028 /* Build configuration list for PBXNativeTarget "VisionProStockDemo" */ = {
+		5D1234567890ABEA /* Build configuration list for PBXNativeTarget "VisionProStockDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				036 /* Debug */,
-				037 /* Release */,
+				5D1234567890ABF1 /* Debug */,
+				5D1234567890ABF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		032 /* Build configuration list for PBXProject "VisionProStockDemo" */ = {
+		5D1234567890ABEE /* Build configuration list for PBXProject "VisionProStockDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				034 /* Debug */,
-				035 /* Release */,
+				5D1234567890ABEF /* Debug */,
+				5D1234567890ABF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 031 /* Project object */;
+	rootObject = 5D1234567890ABED /* Project object */;
 }

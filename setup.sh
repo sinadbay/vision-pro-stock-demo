@@ -30,28 +30,19 @@ fi
 
 echo "✅ visionOS SDK available"
 
-# Create necessary directories
-echo "📁 Creating project structure..."
-
-mkdir -p "Sources/VisionProStockDemo/Models"
-mkdir -p "Sources/VisionProStockDemo/Views/Widgets"
-mkdir -p "Sources/VisionProStockDemo/Services"
-mkdir -p "VisionProStockDemo.xcodeproj"
-
-echo "✅ Project structure created"
-
 # Check if all source files exist
 echo "📋 Checking source files..."
 
 SOURCE_FILES=(
-    "Sources/VisionProStockDemo/App.swift"
-    "Sources/VisionProStockDemo/Views/ContentView.swift"
-    "Sources/VisionProStockDemo/Models/StockData.swift"
-    "Sources/VisionProStockDemo/Services/StockDataService.swift"
-    "Sources/VisionProStockDemo/Views/Widgets/StockChartWidget.swift"
-    "Sources/VisionProStockDemo/Views/Widgets/VolumeWidget.swift"
-    "Sources/VisionProStockDemo/Views/Widgets/MarketOverviewWidget.swift"
-    "Sources/VisionProStockDemo/Views/ImmersiveStockView.swift"
+    "VisionProStockDemo/App.swift"
+    "VisionProStockDemo/Views/ContentView.swift"
+    "VisionProStockDemo/Models/StockData.swift"
+    "VisionProStockDemo/Services/StockDataService.swift"
+    "VisionProStockDemo/Views/Widgets/StockChartWidget.swift"
+    "VisionProStockDemo/Views/Widgets/VolumeWidget.swift"
+    "VisionProStockDemo/Views/Widgets/MarketOverviewWidget.swift"
+    "VisionProStockDemo/Views/ImmersiveStockView.swift"
+    "VisionProStockDemo/Info.plist"
 )
 
 for file in "${SOURCE_FILES[@]}"; do
